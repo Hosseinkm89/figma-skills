@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case any skill ever adds a build step)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS / sync junk
+*.tmp
+*.bak
