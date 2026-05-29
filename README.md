@@ -9,6 +9,8 @@ Built by [@hosseinkm89](https://github.com/hosseinkm89). Maintained for designer
 | Skill | What it does | Triggers on phrases like |
 |---|---|---|
 | [`auto-layout-refactor`](auto-layout-refactor/) | Walks a Figma page and converts every flat, absolutely-positioned frame into proper auto-layout, in place. | "this file has no auto-layout", "auto-layout this page", "clean up this old Figma file" |
+| [`figma-rename-layers`](figma-rename-layers/) | Batch-renames generic layers (`Frame 1`, `Rectangle 23`) from their design content, in undoable batches. | "rename all my layers", "everything is called Frame 1", "name my layers from their content" |
+| [`accessibility-contrast-audit`](accessibility-contrast-audit/) | Scores text + UI contrast against WCAG AA/AAA for every frame on a page, then writes a designed report page with per-frame PASS/FAIL badges and click-to-jump links. | "check the color contrast", "run a WCAG contrast audit", "is this AA compliant?", "which frames pass AA and AAA?" |
 
 *More coming. See [Roadmap](#roadmap).*
 
